@@ -458,7 +458,7 @@ box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.43);
 }
 
 .card:nth-child(3) {
-    background: url("../images/image-25.jpg");
+    background: url("../images/image-25-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -655,7 +655,7 @@ box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.43);
 <--- -------------------------- -*/
 
 #reviews {
-    background: url("/images/brick-wall.jpg");
+    background: url("/images/brick-wall-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
