@@ -308,7 +308,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background: url("../images/man.jpg");
+    background: url("../images/man-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -1794,13 +1794,12 @@ box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.43);
     <---          TRUST US          -->
     <--- -------------------------- -*/
 
-    #trust-us {
-        background: url("/images/house.jpg");
-    }
-
     .content {
         padding-bottom: 200px;
-        background-attachment: fixed;
+        background-attachment: fixed !important;
+        background: url("/images/man.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .why-item-container {
