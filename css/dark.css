@@ -365,24 +365,13 @@ footer.dark-mode {
 @media screen and (min-width: 1025px) {
 
     .dark-toggle {
-        border-color: #fff;
+        background: var(--primary);
     }
 
     .floating-box.dark-mode {
         border: none;
         -webkit-box-shadow: 0px 10px 15px -7px rgba(115,191,68,1);
 box-shadow: 0px 10px 15px -7px rgba(115,191,68,1);
-    }
-
-    .dark-toggle:after {
-        content: url('/moon-white.svg');
-        color: #2e2e2e;
-        position: absolute;
-        height: auto;
-        top: -26px;
-        -webkit-transition: .5s ease;
-        -o-transition: .5s ease;
-        transition: .5s ease;
     }
 
     .dark-toggle span {
