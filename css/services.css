@@ -252,6 +252,13 @@ form {
     opacity: .7;
 }
 
+.disclaimer {
+    margin-top: 70px;
+    line-height: 1.2em;
+    font-size: .9em;
+    text-align: center;
+}
+
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 
@@ -416,7 +423,7 @@ form {
     #services {
         padding-top: 100px;
         position: relative;
-        padding-bottom: 0;
+        padding-bottom: 100px;
     }
 
     .topper h2 {
