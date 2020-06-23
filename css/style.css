@@ -555,6 +555,11 @@ box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.43);
     margin-bottom: 0px;
 }
 
+.svg {
+    display: flex;
+    flex-direction: column;
+}
+
 .right-card svg {
     margin-right: 20px;
     width: 60px;
