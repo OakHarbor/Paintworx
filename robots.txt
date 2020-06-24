@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /html/about.html
-Noindex: /html/about.html
+Sitemap: https://www.paintworxnw.com/sitemap.xml
