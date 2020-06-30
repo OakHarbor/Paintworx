@@ -3,7 +3,7 @@
 <--- -------------------------- -*/
 
 #hero {
-    min-height: calc(100%-100px);
+    min-height: calc(100%-200px);
     width: 100%;
     background: url("../images/image-3-mobile.jpg");
     background-repeat: no-repeat;
