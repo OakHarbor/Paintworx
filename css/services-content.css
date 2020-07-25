@@ -150,8 +150,12 @@ li {counter-increment: li}
     }
 
     .images {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         margin-top: 50px;
     }
 
@@ -241,21 +245,26 @@ li {counter-increment: li}
     }
 
     .margin {
-        margin-bottom: 170px;
+        margin-bottom: 210px;
     }
 
     .float-h2 {
-        width: 385px;
+        width: 565px;
         margin: 0;
         float: right;
     }
 
     .float-h2-res {
-        width: 518px;
+        width: 698px;
         float: right;
     }
 
     .float-h2-fence {
+        width: 698px;
+        float: right;
+    }
+    
+    .float-h2-com {
         width: 698px;
         float: right;
     }
@@ -267,13 +276,17 @@ li {counter-increment: li}
     }
 
     .images {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         margin-top: 50px;
     }
 
     .images img {
-        width: 230px !important;
+        width: 280px !important;
         height: auto !important;
     }
 
