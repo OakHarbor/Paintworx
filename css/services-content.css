@@ -255,6 +255,11 @@ li {counter-increment: li}
         float: right;
     }
 
+    .float-h2-fence {
+        width: 698px;
+        float: right;
+    }
+
     .residential {
         width: 470px !important;
         height: auto !important;
