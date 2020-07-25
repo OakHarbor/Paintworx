@@ -972,7 +972,8 @@ footer h2 {
 
 footer p {
 	font-weight: normal;
-	line-height: 2em;
+    line-height: 2em;
+    margin-bottom: 5px;
 }
 
 .footer-call {

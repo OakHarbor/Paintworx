@@ -302,6 +302,12 @@ var $numberItemH4 = $('.number-item h4');
 var $squareH2 = $('.square h2');
 
 // -------------------------------------------
+//             SERVICES PAGE
+//--------------------------------------------
+
+var $olBefore = $('ol li');
+
+// -------------------------------------------
 //             CONTACT PAGE
 //--------------------------------------------
 
@@ -372,6 +378,12 @@ const enableDarkMode = () => {
 
   /* Footer */
   $footer.addClass("dark-mode");
+
+  // -------------------------------------------
+  //             SERVICES PAGE
+  //--------------------------------------------
+
+  $olBefore.addClass("dark-mode");
 
   // -------------------------------------------
   //             ABOUT PAGE
@@ -460,6 +472,12 @@ const disableDarkMode = () => {
 
 $numberItemH4.removeClass("dark-mode");
 $squareH2.removeClass("dark-mode");
+
+  // -------------------------------------------
+  //             SERVICES PAGE
+  //--------------------------------------------
+
+  $olBefore.removeClass("dark-mode");
 
 // -------------------------------------------
 //             CONTACT PAGE
