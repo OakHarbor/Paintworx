@@ -2,6 +2,11 @@
 <---          CONTENT           -->
 <--- -------------------------- -*/
 
+.container {
+    max-width: 900px;
+}
+
+
 #content {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -233,8 +238,8 @@ li {counter-increment: li}
         -webkit-box-ordinal-group: 2;
             -ms-flex-order: 1;
                 order: 1;
-        width: 600px;
-        height: 398px;
+        width: 400px;
+        height: auto;
         float: left;
     }
 
@@ -249,23 +254,23 @@ li {counter-increment: li}
     }
 
     .float-h2 {
-        width: 565px;
+        width: 385px;
         margin: 0;
         float: right;
     }
 
     .float-h2-res {
-        width: 698px;
+        width: 318px;
         float: right;
     }
 
     .float-h2-fence {
-        width: 698px;
+        width: 318px;
         float: right;
     }
     
     .float-h2-com {
-        width: 698px;
+        width: 318px;
         float: right;
     }
 
@@ -286,7 +291,7 @@ li {counter-increment: li}
     }
 
     .images img {
-        width: 280px !important;
+        width: 200px !important;
         height: auto !important;
     }
 

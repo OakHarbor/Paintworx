@@ -504,6 +504,10 @@ form {
         height: 150px;
     }
 
+    .service-item:last-child {
+        margin-bottom: 80px;
+    }
+
     /*-- -------------------------- -->
     <---         OUR MISSION        -->
     <--- -------------------------- -*/
