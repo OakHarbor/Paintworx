@@ -26,7 +26,7 @@ body.dark-mode {
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/tools.jpg');
+    background: url('/images/about-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -802,7 +802,9 @@ body.dark-mode {
     <--- -------------------------- -*/
 
     #hero {
+        background: url("/images/image-38.jpg");
         height: 600px;
+        background-position: center 60%;
         background-attachment: fixed;
         position: relative;
     }

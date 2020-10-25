@@ -19,7 +19,7 @@ html {
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url("/images/image-12.jpg");
+    background: url("/images/portfolio-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -142,6 +142,8 @@ html {
 
 /* Modals Visibility */
 
+/* Residential Modals Visibility */
+
 .modal-one,
 .modal-two,
 .modal-three,
@@ -149,7 +151,7 @@ html {
 .modal-five,
 .modal-six,
 .modal-seven,
-.moadl-eight,
+.modal-eight,
 .modal-nine,
 .modal-ten,
 .modal-eleven,
@@ -162,14 +164,25 @@ html {
 .moadl-eighteen,
 .modal-nineteen,
 .modal-twenty,
-.modal-twenty-one {
+.modal-twenty-one,
+.modal-twenty-two,
+.modal-twenty-three,
+.modal-twenty-four,
+.modal-twenty-five,
+.modal-twenty-six,
+.modal-twenty-seven,
+.modal-twenty-eight,
+.modal-twenty-nine,
+.modal-thirty,
+.modal-thirty-one,
+.modal-thirty-two {
     visibility: hidden;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
 
-/* Modal Visibility Clicked */
+/* Resiential Modal Visibility Clicked */
 
 .modal-one.clicked,
 .modal-two.clicked,
@@ -191,7 +204,18 @@ html {
 .modal-eighteen.clicked,
 .modal-nineteen.clicked,
 .modal-twenty.clicked,
-.modal-twenty-one.clicked {
+.modal-twenty-one.clicked,
+.modal-twenty-two.clicked,
+.modal-twenty-three.clicked,
+.modal-twenty-four.clicked,
+.modal-twenty-five.clicked,
+.modal-twenty-six.clicked,
+.modal-twenty-seven.clicked,
+.modal-twenty-eight.clicked,
+.modal-twenty-nine.clicked,
+.modal-thirty.clicked,
+.modal-thirty-one.clicked,
+.modal-thirty-two.clicked {
     visibility: visible;
     margin: auto;
     z-index: 2000;
@@ -261,11 +285,11 @@ html.clicked {
 @media screen and (min-width: 1025px) {
 
     #hero {
-        background: url("/images/image-18.jpeg");
+        background: url("/images/image-37.jpg");
         height: 600px;
         background-attachment: fixed;
         position: relative;
-        background-position: top;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }

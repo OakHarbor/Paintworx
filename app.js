@@ -67,6 +67,17 @@ var $modalEighteen = $(".modal-eighteen");
 var $modalNineteen = $(".modal-nineteen");
 var $modalTwenty = $(".modal-twenty");
 var $modalTwentyOne = $(".modal-twenty-one");
+var $modalTwentyTwo = $(".modal-twenty-two");
+var $modalTwentyThree = $(".modal-twenty-three");
+var $modalTwentyFour = $(".modal-twenty-four");
+var $modalTwentyFive = $(".modal-twenty-five");
+var $modalTwentySix = $(".modal-twenty-six");
+var $modalTwentySeven = $(".modal-twenty-seven");
+var $modalTwentyEight = $(".modal-twenty-eight");
+var $modalTwentyNine = $(".modal-twenty-nine");
+var $modalThirty = $(".modal-thirty");
+var $modalThirtyOne = $(".modal-thirty-one");
+var $modalThirtyTwo = $(".modal-thirty-two");
 
 /* Images collected in variables */
 
@@ -94,6 +105,17 @@ var $eighteen = $("#eighteen");
 var $nineteen = $("#nineteen");
 var $twenty = $("#twenty");
 var $twentyOne = $("#twenty-one");
+var $twentyTwo = $("#twenty-two");
+var $twentyThree = $("#twenty-three");
+var $twentyFour = $("#twenty-four");
+var $twentyFive = $("#twenty-five");
+var $twentySix = $("#twenty-six");
+var $twentySeven = $("#twenty-seven");
+var $twentyEight = $("#twenty-eight");
+var $twentyNine = $("#twenty-nine");
+var $thirty = $("#thirty");
+var $thirtyOne = $("#thirty-one");
+var $thirtyTwo = $("#thirty-two");
 
 /* Add Clicked Class */
 
@@ -202,6 +224,61 @@ $twentyOne.on("click", function(e) {
   $html.addClass("clicked");
 });
 
+$twentyTwo.on("click", function (e) {
+  $modalTwentyTwo.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentyThree.on("click", function (e) {
+  $modalTwentyThree.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentyFour.on("click", function (e) {
+  $modalTwentyFour.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentyFive.on("click", function (e) {
+  $modalTwentyFive.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentySix.on("click", function (e) {
+  $modalTwentySix.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentySeven.on("click", function (e) {
+  $modalTwentySeven.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentyEight.on("click", function (e) {
+  $modalTwentyEight.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$twentyNine.on("click", function (e) {
+  $modalTwentyNine.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$thirty.on("click", function (e) {
+  $modalThirty.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$thirtyOne.on("click", function (e) {
+  $modalThirtyOne.addClass("clicked");
+  $html.addClass("clicked");
+});
+
+$thirtyTwo.on("click", function (e) {
+  $modalThirtyTwo.addClass("clicked");
+  $html.addClass("clicked");
+});
+
 /* Remove Clicked Class */
 
 $homeIcon.on("click", function(e) {
@@ -226,6 +303,17 @@ $homeIcon.on("click", function(e) {
   $modalNineteen.removeClass("clicked");
   $modalTwenty.removeClass("clicked");
   $modalTwentyOne.removeClass("clicked");
+  $modalTwentyTwo.removeClass("clicked");
+  $modalTwentyThree.removeClass("clicked");
+  $modalTwentyFour.removeClass("clicked");
+  $modalTwentyFive.removeClass("clicked");
+  $modalTwentySix.removeClass("clicked");
+  $modalTwentySeven.removeClass("clicked");
+  $modalTwentyEight.removeClass("clicked");
+  $modalTwentyNine.removeClass("clicked");
+  $modalThirty.removeClass("clicked");
+  $modalThirtyOne.removeClass("clicked");
+  $modalThirtyTwo.removeClass("clicked");
   $html.removeClass("clicked");
 });
 
