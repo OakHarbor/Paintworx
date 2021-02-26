@@ -2,6 +2,23 @@
 <---          CONTENT           -->
 <--- -------------------------- -*/
 
+.heroText {
+	padding-top: 0;
+    position: relative;
+    z-index: 3;
+    height: auto;
+    margin-left: 0;
+}
+
+.heroText h1 {
+	font-size: 2.2em;
+	color: #fff;
+	text-align: left;
+	font-weight: bold;
+	overflow-y: hidden;
+    margin: 0;
+}
+
 .container {
     max-width: 900px;
 }
