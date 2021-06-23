@@ -140,6 +140,10 @@ label, .license {
     display: block;
 }
 
+input[type="radio"] {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif; 
+}
+
 #contact {
     background: transparent;
     position: relative;
