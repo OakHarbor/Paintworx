@@ -165,24 +165,20 @@
                 <label for="exp">Years experience</label>
                 <input id="exp" aria-label="experience" name="years experience" type="number" tabindex="1" required>
                 <!--License-->
-                <span class="license">Do you have a driver's license and reliable transportation?</span>
+                <label class="inline" for="license">Do you have a driver's license and reliable transportation?</label>
+                <select id="license" name="cars" tabindex="4">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label for="exp-explain">If not, please explain:</label>
+                <textarea id="exp-explain" aria-label="write your message" name="describe your experience" placeholder="Type here...." tabindex="5" required></textarea>
 
-                <input class="inline" type="radio" id="license" name="license" value="yes tet">
-                <label class="inline" for="license">Yes - I have a drivers license and transportation</label><br>
-
-                <input class="inline" type="radio" id="license" name="license" value="no">
-                <label class="inline bottom" for="licesne">No - I don't have a license or transportation</label>
-
-                <label for="explain">If no, please explain</label>
-                <input id="explain" aria-label="explain" name="explaination" type="text" tabindex="1">
                 <!--Heights-->
-                <span class="license">Are you comfortable with heights?</span>
-
-                <input class="inline" type="radio" id="height" name="heights" value="yes">
-                <label class="inline" for="height">Yes - I am comfortable with heights</label><br>
-
-                <input class="inline" type="radio" id="height" name="heights" value="no">
-                <label class="inline bottom" for="height">No - I am NOT comfortable with heights</label>
+                <label class="inline" for="height">Are you comfortable with heights?</label>
+                <select id="height" name="height" tabindex="4">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
                 <!--Experience-->
                 <label for="exp-explain">Tell us about any experience you have in your position.</label>
                 <textarea id="exp-explain" aria-label="write your message" name="describe your experience" placeholder="Tell us about your previous experience...." tabindex="5" required></textarea>

@@ -190,7 +190,7 @@ form p{
     margin-bottom: 15px;
 }
 .inline {
-    display: inline-block;
+    display: block;
 }
 
 .bottom {
@@ -201,13 +201,17 @@ form p{
     margin-bottom: 40px;
 }
 
+#height, #license {
+    margin-bottom: 20px;
+}
+
 #contact input[type="text"], 
 #contact input[type="email"], 
 #contact input[type="tel"], 
 #contact input[type="url"], 
 input[type="date"],
 input[type="number"],
-#job,
+#job, #height, #license,
 #contact textarea {
     width:100%;
     border:1px solid #CCC;
