@@ -879,10 +879,8 @@ button:hover {
     #contact-strip {
         background: url("/images/northwest.jpg");
         background-attachment: fixed;
-    }
-
-    #contact-strip:before {
-        top: -1px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .contact-group {

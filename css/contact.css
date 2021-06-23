@@ -443,7 +443,7 @@ input[type="number"],
             -ms-flex-align: center;
                 align-items: center;
         padding-top: 80px;
-        padding-bottom: 120px;
+        padding-bottom: 0px;
         position: relative;
         z-index: 100;
         margin-bottom: 60px;
