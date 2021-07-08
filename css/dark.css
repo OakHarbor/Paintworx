@@ -127,7 +127,7 @@ a.active-menu.dark-mode {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    z-index: 1000;
+    z-index: 10001;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

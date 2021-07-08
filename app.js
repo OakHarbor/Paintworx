@@ -6,6 +6,19 @@ var $hamburger = $(".hamburger");
     // Do something else, like open/close menu
   });
 
+// Pop up action on home page
+
+var $close = $(".close-pop-up");
+var $popUp = $(".pop-up");
+var $form = $(".pop-up-form");
+var $upload = $(".upload-button");
+var $closeForm = $(".close-form");
+
+// click to close pop up
+$close.on("click", function (e) {
+  $popUp.addClass("clicked");
+});
+
   /* Code for the toggling of the navbar */
 
 let toggleNavStatus = false;

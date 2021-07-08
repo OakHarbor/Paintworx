@@ -53,6 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 	background: #fff;
     border-bottom: 5px solid var(--primary);
     height: 100px;
+    position: relative;
+    z-index: 10000;
 }
 
 /* hidden desktop elements */
