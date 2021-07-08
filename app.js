@@ -47,11 +47,6 @@ const form = document.querySelector(".pop-up-form");
 const upload = document.querySelector(".upload-button");
 const closeForm = document.querySelector(".close-form");
 
-
-closeTab.addEventListener('click', function() {
-  popUp.classList.add('clicked');
-})
-
 // ------------------------------------------------- DARK MODE -----------------------------
 
 var body = document.querySelector("body");
@@ -85,3 +80,7 @@ darkModeToggle.addEventListener('click', () => {
   }
 })
 
+
+closeTab.addEventListener('click', function() {
+  popUp.classList.add('clicked');
+})
