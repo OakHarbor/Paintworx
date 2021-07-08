@@ -1,16 +1,5 @@
 // Pop up action on home page
 
-var $close = $(".close-pop-up");
-var $popUp = $(".pop-up");
-var $form = $(".pop-up-form");
-var $upload = $(".upload-button");
-var $closeForm = $(".close-form");
-
-// click to close pop up
-$close.on("click", function (e) {
-  $popUp.addClass("clicked");
-});
-
   /* Code for the toggling of the navbar */
 
 let toggleNavStatus = false;
@@ -20,7 +9,7 @@ let toggleNav = function () {
     let getSidebarUL = document.querySelector(".side-nav ul");
     let getSidebarLinks = document.querySelectorAll(".side-nav a");
     let getSidebarVisibility = document.querySelector(".side-nav");
-    var $html = $("html");
+    var htmlGrab = document.querySelector("html");
     const hamburger = document.querySelector('.hamburger');
 
     hamburger.classList.toggle('is-active');
@@ -35,7 +24,7 @@ let toggleNav = function () {
         item.style.visibility = "visible";
         });
       getSidebar.style.width = "60%";
-      $html.addClass("clicked");
+      htmlGrab.classList.add("clicked");
       toggleNavStatus = true;
     } 
 
@@ -47,14 +36,25 @@ let toggleNav = function () {
           item.style.visibility = "hidden";
          });
         getSidebar.style.width = "0";
-        $html.removeClass("clicked");
+        htmlGrab.classList.remove("clicked");
         toggleNavStatus = false;
     }
 }
 
+const closeTab = document.querySelector(".close-pop-up");
+const popUp = document.querySelector(".pop-up");
+const form = document.querySelector(".pop-up-form");
+const upload = document.querySelector(".upload-button");
+const closeForm = document.querySelector(".close-form");
+
+
+closeTab.addEventListener('click', function() {
+  popUp.classList.add('clicked');
+})
+
 // ------------------------------------------------- DARK MODE -----------------------------
 
-var $body = $("body");
+var body = document.querySelector("body");
 
 // Dark Mode Action
 let darkMode = localStorage.getItem("darkMode");
@@ -62,12 +62,12 @@ const darkModeToggle = document.querySelector('#dark-mode');
 
 const enableDarkMode = () => {
 
-  $body.addClass("dark-mode");
+  body.classList.add("dark-mode");
   localStorage.setItem("darkMode", "enabled")
 }
 
 const disableDarkMode = () => {
-  $body.removeClass("dark-mode");
+  body.classList.remove("dark-mode");
 
   localStorage.setItem("darkMode", null)
 }

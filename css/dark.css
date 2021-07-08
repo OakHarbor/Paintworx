@@ -225,6 +225,15 @@ body.dark-mode .hamburger-inner::after {
     transition: .3s ease;
 }
 
+body.dark-mode .hamburger.is-active .hamburger-inner, 
+body.dark-mode .hamburger.is-active .hamburger-inner::before, 
+body.dark-mode .hamburger.is-active .hamburger-inner::after {
+    background: #fff;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+
 /*-- -------------------------- -->
 <---           LANDING          -->
 <--- -------------------------- -*/
