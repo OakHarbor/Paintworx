@@ -98,8 +98,8 @@
         <!-- Desktop Navbar -->
         <div class="mobile-wrapper">
             <div class="mobile-nav container mobile-nav-container">
-                <img aria-hidden="true" id="mobile-logo"   src="/images/paintworx-logo.png" alt="Paintworx logo" height="55" width="187"> 
-                <img aria-hidden="true" class="dark-mode-logo" src="/images/paintworx-logo-light.png" alt="dark mode logo" height="80">
+                <img aria-hidden="true" id="mobile-logo" src="/images/paintworx-logo.png" alt="Paintworx logo" height="55" width="187"> 
+                <img loading="lazy" aria-hidden="true" class="dark-mode-logo" src="/images/paintworx-logo-light.png" alt="dark mode logo" height="80">
 
                 <!-- Hamburger Menu -->
                 <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
@@ -118,7 +118,7 @@
             <div class="navbar-menu">
                 <div id="side-menu" class=" side-nav">
                     <img aria-hidden="true" src="/images/paintworx-logo.png" alt="company logo" height="80">
-                    <img aria-hidden="true" class="dark-mode-logo" src="/images/paintworx-logo-light.png" alt="dark mode logo" height="55">
+                    <img aria-hidden="true" loading="lazy" class="dark-mode-logo" src="/images/paintworx-logo-light.png" alt="dark mode logo" height="55">
                     <ul id="on-top" class="navbar-links">
                         <li class="nav-li"><a class="active-menu" href="index.html">Home</a></li>
                         <li class="nav-li"><a href="html/about.html">About</a></li>
@@ -131,7 +131,7 @@
                         <li class="nav-li"><button class="button-solid quote-nav-button" onclick="location.href='/html/contact.html'" type="button">
                             FREE ESTIMATE</button></li>
                     </ul>
-                    <img class="paintworx-x" src="/images/paintworx-X.png" alt="">
+                    <img loading="lazy" aria-hidden="true" class="paintworx-x" src="/images/paintworx-X.png" alt="">
                 </div>
             </div>
         </nav>
@@ -726,7 +726,7 @@ We would hire Paintworx again and appreciate the knowledgeable, professional and
         </div>
     </footer>
 
-    <script>
+    <script defer>
         var ba = ["MSIE","Trident","Edge"];
         var b, ua = navigator.userAgent;
         for(var i=0; i < ba.length; i++){
