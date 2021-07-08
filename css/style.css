@@ -38,46 +38,6 @@
                 animation-delay: .2s;
     }
     
-    @-webkit-keyframes popDown {
-        0% {
-            top: -200px;
-        }
-    
-        100% {
-            top: -15px;
-        }
-    }
-    
-    @keyframes popDown {
-        0% {
-            top: -200px;
-        }
-    
-        100% {
-            top: -15px;
-        }
-    }
-    
-    @-webkit-keyframes popUp {
-        0% {
-            top: -15px;
-        }
-    
-        100% {
-            top: -200px;
-        }
-    }
-    
-    @keyframes popUp {
-        0% {
-            top: -15px;
-        }
-    
-        100% {
-            top: -200px;
-        }
-    }
-    
     .pop-up.clicked {
         -webkit-animation-name: popUp;
                 animation-name: popUp;
