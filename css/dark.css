@@ -283,6 +283,7 @@ body.dark-mode .content-back {
 
 body.dark-mode .dark-svg {
     display: block !important;
+    position: relative;
 }
 
 body.dark-mode .light-svg {
