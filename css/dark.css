@@ -6,14 +6,14 @@
     --light: #2e2e2e;
 }
 
-body p.dark-mode,
-body h2.dark-mode,
-body h3.dark-mode
+body.dark-mode p,
+body.dark-mode h2,
+body.dark-mode h3
  {
     color: #fff;
 }
 
-.dark-button.dark-mode {
+body.dark-mode .dark-button {
     color: #000;
 }
 
@@ -25,18 +25,18 @@ body.dark-mode {
     background: var(--dark);
 }
 
-.navbar-menu.dark-mode {
+body.dark-mode .navbar-menu {
     background: #222;	
 	background: -o-linear-gradient(#222, #000);	
 	background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#000));	
 	background: linear-gradient(#222, #000);
 }
 
-.side-nav a.dark-mode {
+body.dark-mode .side-nav a {
     color: #f5f3f3;
 }
 
-a.active-menu.dark-mode {
+body.dark-mode a.active-menu {
     color: var(--primary);
 }
 
@@ -52,7 +52,7 @@ a.active-menu.dark-mode {
     transition: .3s ease;
 }
 
-#mobile-logo.dark-mode {
+body.dark-mode #mobile-logo {
     visibility: hidden;
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
@@ -68,7 +68,7 @@ a.active-menu.dark-mode {
     transition: .2s ease;
 }
 
-.dark-mode-logo.dark-mode {
+body.dark-mode .dark-mode-logo {
     opacity: 1;
     visibility: visible;
     -webkit-transition: .3s ease;
@@ -76,7 +76,7 @@ a.active-menu.dark-mode {
     transition: .3s ease;
 }
 
-.mobile-wrapper.dark-mode {
+body.dark-mode .mobile-wrapper {
     background: var(--medium);
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
@@ -149,7 +149,7 @@ a.active-menu.dark-mode {
     opacity: 1;
 }
 
-.dark-toggle.dark-mode:after {
+body.dark-mode .dark-toggle:after {
     visibility: hidden;
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
@@ -167,7 +167,7 @@ a.active-menu.dark-mode {
     opacity: 0;
 }
 
-.dark-toggle.dark-mode:before {
+body.dark-mode.dark-toggle:before {
     top: 5px;
     left: 5px;
     height: 20px;
@@ -199,7 +199,7 @@ a.active-menu.dark-mode {
     transition: .3s ease;
 }
 
-.dark-toggle.dark-mode {
+body.dark-mode .dark-toggle {
     border: none;
 	background: -webkit-gradient(linear, left top, left bottom, from(#73bf44), to(#457329));
 	background: -o-linear-gradient(#73bf44, #457329);
@@ -209,7 +209,7 @@ a.active-menu.dark-mode {
     transition: .3s ease;
 }
 
-.dark-toggle span.dark-mode {
+body.dark-mode .dark-toggle span {
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
@@ -217,7 +217,8 @@ a.active-menu.dark-mode {
     left: 25px;
 }
 
-.hamburger-inner.dark-mode, .hamburger-inner.dark-mode::before, .hamburger-inner.dark-mode::after {
+body.dark-mode .hamburger-inner, body.dark-mode .hamburger-inner::before, 
+body.dark-mode .hamburger-inner::after {
     background: #fff;
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
@@ -232,7 +233,7 @@ a.active-menu.dark-mode {
     position: relative;
 }
 
-#dark.dark-mode {
+body.dark-mode #dark {
     background: var(--medium);
     opacity: .84;
     -webkit-transition: .3s ease;
@@ -240,7 +241,7 @@ a.active-menu.dark-mode {
     transition: .3s ease;
 }
 
-.floating-box.dark-mode {
+body.dark-mode .floating-box {
     background: var(--medium);
 }
 
@@ -248,19 +249,19 @@ a.active-menu.dark-mode {
 <---          TRUST US          -->
 <--- -------------------------- -*/
 
-#customer-service.dark-mode {
+body.dark-mode #customer-service {
     background: var(--dark) !important;
 }
 
-.estimate.dark-mode {
+body.dark-mode .estimate {
     background: var(--light);
 }
 
-.estimate h2.dark-mode {
+body.dark-mode .estimate h2 {
     color: var(--primary);
 }
 
-.content-back.dark-mode {
+body.dark-mode .content-back {
     height: 100.76%;
     width: s;
     position: absolute;
@@ -280,11 +281,11 @@ a.active-menu.dark-mode {
     display: none !important;
 }
 
-.dark-svg.dark-mode {
+body.dark-mode .dark-svg {
     display: block !important;
 }
 
-.light-svg.dark-mode {
+body.dark-mode .light-svg {
     opacity: 0;
 }
 
@@ -292,7 +293,7 @@ a.active-menu.dark-mode {
 <---           WHY US           -->
 <--- -------------------------- -*/
 
-#why-us.dark-mode {
+body.dark-mode #why-us {
     background: var(--dark);
 }
 
@@ -300,11 +301,11 @@ a.active-menu.dark-mode {
 <---            FAQ             -->
 <--- -------------------------- -*/
 
-#frequently-asked-questions.dark-mode {
+body.dark-mode #frequently-asked-questions {
     background: var(--medium);
 }
 
-.faq-group h4.dark-mode {
+body.dark-mode .faq-group h4 {
     color: var(--primary);
 }
 
@@ -312,7 +313,7 @@ a.active-menu.dark-mode {
     color: var(--primary);
 }
 
-ul li.dark-mode {
+body.dark-mode ul li {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #fff;
 }
@@ -321,7 +322,7 @@ ul li.dark-mode {
 <---          SPOTLIGHT         -->
 <--- -------------------------- -*/
 
-#spotlight.dark-mode {
+body.dark-mode #spotlight {
     background: var(--medium);
 }
 
@@ -329,15 +330,15 @@ ul li.dark-mode {
 <---        MEET THE TEM        -->
 <--- -------------------------- -*/
 
-#meet-the-team.dark-mode {
+body.dark-mode #meet-the-team {
     background: var(--medium) !important;
 }
 
-.team-content.dark-mode {
+body.dark-mode .team-content {
     background: var(--light);
 }
 
-.team-content p.dark-mode {
+body.dark-mode .team-content p {
     color: #fff !important;
 }
 
@@ -350,7 +351,7 @@ ul li.dark-mode {
 <---           FOOTER           -->
 <--- -------------------------- -*/
 
-footer.dark-mode {
+body.dark-mode footer {
     background: var(--dark);
 }
 
@@ -368,7 +369,7 @@ footer.dark-mode {
         background: var(--primary);
     }
 
-    .floating-box.dark-mode {
+    body.dark-mode .floating-box {
         border: none;
         -webkit-box-shadow: 0px 10px 15px -7px rgba(115,191,68,1);
 box-shadow: 0px 10px 15px -7px rgba(115,191,68,1);
@@ -386,22 +387,22 @@ box-shadow: 0px 10px 15px -7px rgba(115,191,68,1);
         z-index: 1000;
     }
 
-    .navbar-menu.dark-mode {
+    body.dark-mode .navbar-menu {
         background: unset;
     }
 
-    .white-comb.dark-mode {
+    body.dark-mode .white-comb {
         display: none;
     }
 
-    .dark-comb.dark-mode {
+    body.dark-mode .dark-comb {
         display: block;
         position: absolute;
         bottom: -2px;
         z-index: 5;
     }
 
-    .side-nav.dark-mode {
+    body.dark-mode .side-nav {
         background: #000;
     }
 
